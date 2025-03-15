@@ -1,0 +1,462 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navi{
+    /* background-color: darkblue; */
+    height: 18vh;
+    width: 100%;
+}
+.navi .nav1{
+    height: 40px;
+    width: 100%;
+    background-color: darkviolet;
+}
+.navi .nav2{
+    height: 40px;
+    width: 100%;
+    background-color: darkblue;
+}
+.navi .nav3{
+    height: 40px;
+    width: 100%;
+    background-color: darkmagenta;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.results{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    
+}
+.results .header{
+   padding-top: 10px;
+   padding-left: 15px;
+   margin: 0px;
+}
+.results .procontainer{
+    background-color: white;
+    height: 180vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* column-gap: 0px; */
+    row-gap: 5px;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.results .procontainer .pro1, .pro2,.pro3,.pro4,.pro5{
+    height: 570px;
+    width: 95%;
+    /* background-color: grey; */
+    /* box-shadow: 5px 10px  #8888888e;  */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    /* padding-top: .5px; */
+    position: relative;
+}
+.results .procontainer .pro1 .pro1image{
+    height: 35vh;
+    width: 100%;
+    /* object-fit: cover; */
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+.results .procontainer .pro1 h6{
+    margin: 0%;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro1 .rating{
+    display: flex;
+    margin: 5px;
+}
+.results .procontainer .pro1 .rating .color{
+    color: rgb(48, 114, 108);
+}
+.results .procontainer .pro1 .star1,.star2,.star3,.star4,.star5{
+    height: 13px;
+    width: 5%;
+    background-color: black;
+}
+.results .procontainer .pro1 .bought{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results .procontainer .pro1 .button{
+    margin: 5px;
+    background-color: rgb(200,0,0);
+    color: white;
+    border: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.results .procontainer .pro1 .price{
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: smaller;
+    display: flex;
+}
+.results .procontainer .pro1 .price .big{
+    font-size: 20px;
+}
+
+
+.results .procontainer .pro1 .price p{
+    color: gray;
+}
+
+.results .procontainer .pro1 .price p span{
+    color: black;
+}
+
+.results .procontainer .pro1 .prime{
+    height: 2vh;
+    width: 30%;
+}
+.results .procontainer .pro1 p{
+    font-size: smaller;
+    font-weight: 700;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro1 h6{
+    font-size: 12px;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.results .procontainer .pro1 .cart{
+    padding: 10px ;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin-right: 50%; */
+    margin: 10px;
+
+}
+.results .procontainer .pro2 .pro1image{
+    height: 35vh;
+    width: 100%;
+
+}
+.results .procontainer .pro2 h6{
+    margin: 0%;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro2 .rating{
+    display: flex;
+    margin: 5px;
+}
+.results .procontainer .pro2 .rating .color{
+    color: rgb(48, 114, 108);
+}
+.results .procontainer .pro2 .star1,.star2,.star3,.star4,.star5{
+    height: 13px;
+    width: 5%;
+    background-color: black;
+}
+.results .procontainer .pro2 .bought{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results .procontainer .pro2 .button{
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.results .procontainer .pro2 .price{
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: smaller;
+    display: flex;
+}
+.results .procontainer .pro2 .price .big{
+    font-size: 20px;
+}
+.results .procontainer .pro2 .prime{
+    height: 2vh;
+    width: 30%;
+}
+.results .procontainer .pro2 p{
+    font-size: smaller;
+    font-weight: 700;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro2 h6{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.results .procontainer .pro2 .cart{
+    padding: 10px ;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin-right: 50%; */
+    margin: 10px;
+
+}
+
+/* 33333333 */
+
+.results .procontainer .pro3 .pro1image{
+    height: 35vh;
+    width: 100%;
+
+}
+.results .procontainer .pro3 h6{
+    margin: 0%;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro3 .rating{
+    display: flex;
+    margin: 5px;
+}
+.results .procontainer .pro3 .rating .color{
+    color: rgb(48, 114, 108);
+}
+.results .procontainer .pro3 .star1,.star2,.star3,.star4,.star5{
+    height: 13px;
+    width: 5%;
+    background-color: black;
+}
+.results .procontainer .pro3 .bought{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results .procontainer .pro3 .button{
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.results .procontainer .pro3 .price{
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: smaller;
+    display: flex;
+}
+
+
+
+
+
+
+.results .procontainer .pro3 .price .big{
+    font-size: 20px;
+}
+.results .procontainer .pro3 .prime{
+    height: 2vh;
+    width: 30%;
+}
+.results .procontainer .pro3 p{
+    font-size: smaller;
+    font-weight: 700;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro3 h6{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.results .procontainer .pro3 .cart{
+    padding: 10px ;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin-right: 50%; */
+    margin: 10px;
+
+}
+
+/* 4444444 */
+.results .procontainer .pro4 .pro1image{
+    height: 35vh;
+    width: 100%;
+
+}
+.results .procontainer .pro4 h6{
+    margin: 0%;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro4 .rating{
+    display: flex;
+    margin: 5px;
+}
+.results .procontainer .pro4 .rating .color{
+    color: rgb(48, 114, 108);
+}
+.results .procontainer .pro4 .star1,.star2,.star3,.star4,.star5{
+    height: 13px;
+    width: 5%;
+    background-color: black;
+}
+.results .procontainer .pro4 .bought{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results .procontainer .pro4 .button{
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.results .procontainer .pro4 .price{
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: smaller;
+    display: flex;
+}
+.results .procontainer .pro4 .price .big{
+    font-size: 20px;
+}
+.results .procontainer .pro4 .prime{
+    height: 2vh;
+    width: 30%;
+}
+.results .procontainer .pro4 p{
+    font-size: smaller;
+    font-weight: 700;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro4 h6{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.results .procontainer .pro4 .cart{
+    padding: 10px ;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin-right: 50%; */
+    margin: 10px;
+
+}
+
+
+/* 555555555 */
+.results .procontainer .pro5 .pro1image{
+    height: 35vh;
+    width: 100%;
+
+}
+.results .procontainer .pro5 h6{
+    margin: 0%;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro5 .rating{
+    display: flex;
+    margin: 5px;
+}
+.results .procontainer .pro5 .rating .color{
+    color: rgb(48, 114, 108);
+}
+.results .procontainer .pro5 .star1,.star2,.star3,.star4,.star5{
+    height: 13px;
+    width: 5%;
+    background-color: black;
+}
+.results .procontainer .pro5 .bought{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results .procontainer .pro5 .button{
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.results .procontainer .pro5 .price{
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: smaller;
+    display: flex;
+}
+.results .procontainer .pro5 .price .big{
+    font-size: 20px;
+}
+.results .procontainer .pro5 .prime{
+    height: 2vh;
+    width: 30%;
+}
+.results .procontainer .pro5 p{
+    font-size: smaller;
+    font-weight: 700;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.results .procontainer .pro5 h6{
+    font-size: smaller;
+    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.results .procontainer .pro5 .cart{
+    padding: 10px ;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin-right: 50%; */
+    margin: 10px;
+
+}
+
+
+.pad15{
+    padding-left: 5px;
+}
+
+.amz{
+    background-color: rgb(19,33,73);
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-top-left-radius: 10px;
+}
+.amz p span{
+    color: #ffca1a;
+}

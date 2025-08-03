@@ -19,7 +19,7 @@
         </div>
         <div class="procontainer">
             <div class="pro1">
-                <img class="pro1image" src="f1.jpg" alt="">
+                <img class="pro1image" src="f1.jpg" alt="" onclick="visit()">
                 <div class="amz">
                     <p>Amazon's <span>Choice</span></p>
                 </div>
@@ -36,10 +36,6 @@
                 <h6 class="bought pad15">3k+ bought in this month</h6>
                 <button class="button">Republic Day Deal</button>
                 <div class="price pad15">
-                  <!-- <h6> RS </h6>
-                  <h6 class="big">2,310 </h6>
-                  <h6> M.R.P:8,540(85% off)</h6>
-                  <h6>Upto 5% off with Amazon Pay</h6> -->
 
                   <p> Rs.
                     <span class="big">2,310</span>
@@ -49,13 +45,16 @@
                 <img class="prime pad15" src="prime2.jpeg" alt="">
                 <p class="pad15">Free delivery Mon,20 Apr</p>
                 <p class="pad15">Or fastest delivery,Tommorow Sun 18</p>
-                <h6 class="pad15">Service:Installation</h6>
-                <button class="cart pad15">Add to cart</button>
+                <h6 class="pad15">Service:Return Avaiable</h6>
+                <button class="cart pad15" onclick="show()">Add to cart</button>
             </div>
-            <div class="pro2">
-                <img class="pro1image" src="f2.jpg" alt="">
-                <h6>Men's Regular Fit Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread Collar & Full Sleeves</h6>
-                <div class="rating">
+            <div id="popupImage" onclick="closePopup()">
+                    <img src="f1.jpg" alt="Zoomed Image">
+            </div>
+            <div class="pro1">
+                <img class="pro1image" src="f2.jpg" alt="" onclick="visit()">
+                <h6 class="pad15">Men's Regular Fit Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread Collar & Full Sleeves</h6>
+                <div class="rating pad15">
                       <img class="star1" src="star.jpeg" alt="">
                      <img class="star2" src="star.jpeg" alt="">
                      <img class="star3" src="star.jpeg" alt="">
@@ -64,23 +63,26 @@
                      <h6>^</h6>
                      <h6 class="color">21,000</h6>
                 </div>
-                <h6 class="bought">3k+ bought in this month</h6>
+                <h6 class="bought pad15">3k+ bought in this month</h6>
                 <button class="button">Republic Day Deal</button>
-                <div class="price">
-                  <h6> RS </h6>
-                  <h6 class="big">2,310 </h6>
-                  <h6> M.R.P:8,540(85% off)</h6>
-                  <h6>Upto 5% off with Amazon Pay</h6>
+                <div class="price pad15">
+                  <p> Rs.
+                  <span class="big">2,310 </span>
+                   M.R.P:8,540(85% off) Upto 5% off with Amazon Pay
+                   </p>
                 </div>
-                <img class="prime" src="prime2.jpeg" alt="">
-                <p>Free delivery Mon,20 Apr</p>
-                <p>Or fastest delivery,Tommorow Sun 18</p>
-                <h6>Service:Installation</h6>
-                <button class="cart">Add to cart</button>
+                <img class="prime pad15" src="prime2.jpeg" alt="">
+                <p class="pad15">Free delivery Mon,20 Apr</p>
+                <p class="pad15">Or fastest delivery,Tommorow Sun 18</p>
+                <h6 class="pad15">Service:Return Avaiable</h6>
+                <button class="cart pad15" onclick="show()">Add to cart</button>
 
             </div>
+            <div id="popupImage" onclick="closePopup()">
+                    <img src="f2.jpg" alt="Zoomed Image">
+            </div>
             <div class="pro3">
-                <img class="pro1image" src="f3.jpg" alt="">
+                <img class="pro1image" src="f3.jpg" alt="" onclick="visit()">
                 <h6>Men's Regular Fit Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread Collar & Full Sleeves</h6>
                 <div class="rating">
                       <img class="star1" src="star.jpeg" alt="">
@@ -102,12 +104,15 @@
                 <img class="prime" src="prime2.jpeg" alt="">
                 <p>Free delivery Mon,20 Apr</p>
                 <p>Or fastest delivery,Tommorow Sun 18</p>
-                <h6>Service:Installation</h6>
-                <button class="cart">Add to cart</button>
+                <h6>Service:Return Avaiable</h6>
+                <button class="cart" onclick="show()">Add to cart</button>
+            </div>
+            <div id="popupImage" onclick="closePopup()">
+                    <img src="f3.jpg" alt="Zoomed Image">
             </div>
              
             <div class="pro4">
-                <img class="pro1image" src="f4.jpg" alt="">
+                <img class="pro1image" src="f4.jpg" alt="" onclick="visit()">
                 <h6>Men's Regular Fit Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread Collar & Full Sleeves</h6>
                 <div class="rating">
                       <img class="star1" src="star.jpeg" alt="">
@@ -129,12 +134,15 @@
                 <img class="prime" src="prime2.jpeg" alt="">
                 <p>Free delivery Mon,20 Apr</p>
                 <p>Or fastest delivery,Tommorow Sun 18</p>
-                <h6>Service:Installation</h6>
-                <button class="cart">Add to cart</button>
+                <h6>Service:Return Avaiable</h6>
+                <button class="cart" onclick="show()">Add to cart</button>
+            </div>
+            <div id="popupImage" onclick="closePopup()">
+                    <img src="f4.jpg" alt="Zoomed Image">
             </div>
 
             <div class="pro5">
-                <img class="pro1image" src="f5.jpg" alt="">
+                <img class="pro1image" src="f5.jpg" alt="" onclick="visit()">
                 <h6>Men's Regular Fit Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread Collar & Full Sleeves</h6>
                 <div class="rating">
                       <img class="star1" src="star.jpeg" alt="">
@@ -156,10 +164,27 @@
                 <img class="prime" src="prime2.jpeg" alt="">
                 <p>Free delivery Mon,20 Apr</p>
                 <p>Or fastest delivery,Tommorow Sun 18</p>
-                <h6>Service:Installation</h6>
-                <button class="cart">Add to cart</button>
+                <h6>Service:Return Avaiable</h6>
+                <button class="cart" onclick="show()">Add to cart</button>
+            </div>
+            <div id="popupImage" onclick="closePopup()">
+                    <img src="f5.jpg" alt="Zoomed Image">
             </div>
         </div>
     </section>
+    <script>
+      function show(){
+        alert("site under maintenance")
+      }
+      function visit(){
+        document.getElementById("popupImage").style.display = "flex";
+      }
+
+      function closePopup() {
+        document.getElementById("popupImage").style.display = "none";
+      }
+
+
+    </script>
 </body>
 </html>

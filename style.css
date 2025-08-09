@@ -460,3 +460,32 @@ body{
 .amz p span{
     color: #ffca1a;
 }
+
+.pro1:hover,
+.pro2:hover,
+.pro3:hover,
+.pro4:hover,
+.pro5:hover{
+     transform: scale(1.02); /* Slight zoom effect */
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#popupImage {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  display: none;
+}
+
+#popupImage img {
+  max-width: 80%;
+  max-height: 80%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
